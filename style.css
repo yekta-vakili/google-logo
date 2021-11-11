@@ -1,0 +1,38 @@
+.logo {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border-radius: 50%;
+  top: 20%;
+  left: 40%;
+  border-top: 70px solid #c94b39;
+  border-left: 70px solid #eac007;
+  border-right: 70px solid #5f7ff5;
+  border-bottom: 70px solid #69a850;
+}
+.logo::before {
+  content: '';
+  position: absolute;
+  border-top: 50px solid transparent;
+  border-left: 130px solid transparent;
+  border-right: 130px solid white;
+  border-bottom: 130px solid transparent;
+  transform: rotate(90deg);
+  top: -161px;
+  left: 80px;
+}
+
+.logo::after
+{
+    content:'';
+    position: absolute;
+    border-top: 100px solid #5f7ff5;
+    border-left: 50px solid #5f7ff5;
+    border-right: 20px solid #5f7ff5;
+    border-bottom: 60px solid #5f7ff5;
+    transform: rotate(90deg);
+    top: 14px;
+    left: 150px;
+  
+}
